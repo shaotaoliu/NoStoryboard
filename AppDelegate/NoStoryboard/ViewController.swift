@@ -6,6 +6,9 @@ class ViewController: UIViewController {
         let label = UILabel()
         label.text = "Hello World"
         label.textColor = .white
+        label.font = UIFont.boldSystemFont(ofSize: 30)
+        //label.font = .preferredFont(forTextStyle: .title1)
+        label.font = .systemFont(ofSize: 30)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
